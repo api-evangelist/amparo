@@ -1,8 +1,23 @@
 aid: amparo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amparo.png
 name: Amparo
-description: 'Amparo is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Amparo is a Brazilian fintech that supports bereaved families in the days after a funeral.
+  Its Central de Cadastros uses automated document reading and data extraction to register a family once
+  and share that data across partner systems, while a WhatsApp assistant delivers personalized financial
+  guidance covering INSS pension advances, life-insurance payouts, credit, repatriation reimbursements,
+  and debt and inventory organization. Amparo exposes integration APIs so its Central de Cadastros can
+  connect with funeral-home and insurer client systems. Backed by QED Investors.'
 url: https://raw.githubusercontent.com/api-evangelist/amparo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +31,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- Brazil
+- Financial Services
+- Insurance
+- Lending
+- Bereavement
+- Document Processing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amparo-domain-security.yml
 - type: Website
   url: https://www.amparo.com.vc
+- type: PrivacyPolicy
+  url: https://amparo.com.vc/privacidade
+- type: Support
+  url: https://amparo.com.vc/contato
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
