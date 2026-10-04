@@ -43,7 +43,7 @@ tags:
 - Company
 - Fintech
 - Brazil
-- Financial-Services
+- Financial Services
 - Insurance
 - Lending
 - Bereavement
@@ -57,6 +57,7 @@ tags_raw:
 - Lending
 - Bereavement
 - Document Processing
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
